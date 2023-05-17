@@ -1,0 +1,131 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+#wrapper{
+    display:flex;
+    flex-direction:column;
+}
+#blue-item{
+    display:flex;
+    flex-direction:column;
+    background-color: #1F2937;
+    height:350px;
+}
+#header{
+    display:flex;
+    background-color: #1F2937;
+}
+#header-logo{
+    width:50%;
+}
+#links{
+    display:flex;
+    justify-content: space-evenly;
+    width:50%;
+}
+.link-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#blue-item-content{
+    display:flex;
+    justify-content: center;
+    height: 100%; 
+    margin-top: 30px;
+}
+#paragraf{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    height:200px;
+    width:40%;
+}
+
+#image-placeholder{
+    height:200px;
+    width:40%;
+    background-color: grey;
+}
+#white-item{
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    height:290px;
+}
+#white-item-title{
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+#inf-div-parent{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    height:175px;
+}
+.inf-div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:175px;
+    width:150px;
+}
+.pic{
+    height:140px;
+    width:140px;
+    border:solid lightblue 2px;
+    border-radius: 5px;
+}
+.pag{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    color:lightgray;
+
+}
+#grey-item{
+    height:270px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+
+}
+#white-item2{
+    height:270px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#white-child{
+    display: flex;
+    background-color: #3882F6;
+}
+#teksst{
+    display:flex;
+    flex-direction: column;
+}
+#button-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+}
+h6{
+    color:white;
+    
+}
+#buttonn{
+    border:solid white 1.5px;
+    border-radius: 5px;
+    background-color:#3882F6;
+    padding:5px;
+}
